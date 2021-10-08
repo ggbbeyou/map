@@ -82,6 +82,7 @@ const permission = {
     }
   },
   actions: {
+    // 生成路由
     GenerateRoutes ({ commit }) {
       return new Promise(resolve => {
         getRouters().then(res => {
